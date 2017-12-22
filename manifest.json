@@ -4,7 +4,7 @@
     "version": "1.0",
     "content_scripts": [{
         "js": ["content.js"],
-        "matches": ["<all_urls>"]
+        "matches": ["http://google.com/*","https://*.google.com/*"]
     }],
     "background": {
         "scripts": ["background.js"]
